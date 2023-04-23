@@ -42,3 +42,27 @@ input[type="text"]:focus {
   border-color: dodgerBlue;
   box-shadow: 0 0 8px 0 dodgerBlue;
 }
+
+.counter-app-container {
+  max-width: 680px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+
+.counter-form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter-form > button {
+  width: 50px;
+  height: 50px;
+}
+
+.counter-form > h1 {
+  font-size: 10rem;
+}
